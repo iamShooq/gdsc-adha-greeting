@@ -17,8 +17,22 @@
     <hr> <!-- Horizontal line to separate input section from result section -->
     <!-- Section header for result section -->
     <canvas id="canvas" width="600" height="600"></canvas>
+      <a id="downloadLink" download="adha_card.png" href=" ">Download Card</a>
+    <button id="saveBtn" onclick="saveImage()">Save Image</button> 
     <p id="authorName">Created by <a id="authorLink" href="https://x.com/iamshooq" target="_blank">شوق الحاتم</a></p>
   </div>
   <script src="script.js"></script>
+  <script>
+    function saveImage() {
+      var canvas = document.getElementById('canvas');
+      var imageDataURL = canvas.toDataURL('image/png'); // Get the image data URL
+      var downloadLink = document.getElementById('downloadLink');
+      
+      // Set the href attribute of the download link to the image data URL
+      downloadLink.href = imageDataURL;
+      // Trigger the click event of the download link to start the download
+      downloadLink.click();
+    }
+  </script>
 </body>
 </html>
