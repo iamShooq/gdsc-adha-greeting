@@ -1,0 +1,52 @@
+
+  body {
+    background-color: #0c1446; /* Dark blue color resembling a dark sky */
+    text-align: center;
+    font-family: 'Tajawal', sans-serif; /* Set font family */
+    color: white; /* Set text color to white */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  h1 {
+    color: #4285f4; /* Google Blue */
+  }
+  
+  input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #34a853; /* Google Green */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0f9d58; /* Darker Google Green */
+  }
+  
+  canvas {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  

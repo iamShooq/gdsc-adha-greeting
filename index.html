@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>عيدكم مبارك ! اصنع بطاقتك</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>عيدكم مبارك</h1>
+    <h2>Generate your special Adha Eid greeting Card</h2>
+
+    <input type="text" id="nameInput" placeholder="أدخل اسمك الكريم للتهنئة">
+    <button onclick="addNameToImage()">Generate Card</button>
+    <hr> <!-- Horizontal line to separate input section from result section -->
+    <!-- Section header for result section -->
+    <canvas id="canvas" width="600" height="600"></canvas>
+    <p id="authorName">Created by <a id="authorLink" href="https://x.com/iamshooq" target="_blank">شوق الحاتم</a></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
